@@ -107,4 +107,7 @@ am-g2
 		set a time and operation:
 		*/10 * * * * /path/to/file  			### where */10 mean - repeat every ten minutes 
 		@reboot /path/to/file					### repeat each reboot 			
-										### *(min) *(hour) *(day) *(month) *(day of week) 	
+										### *(min) *(hour) *(day) *(month) *(day of week) 
+
+#22. Output signature:
+	$ perl -e | shasum	
